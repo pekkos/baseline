@@ -1,3 +1,3 @@
 # baseline
 
-Beginning of a personal biolerplate for web projects.
+Beginning of a personal boilerplate for web projects.
