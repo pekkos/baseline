@@ -1,0 +1,58 @@
+@media (min-width: 32em) {
+  html {
+    /*! media query order */
+  }
+}
+
+@media (min-width: 64em) {
+  html {
+    /*! media query order */
+  }
+}
+
+.test
+{
+    border:0px;
+    font-size: 2rem;
+    display: flex;
+    font-family: Verdana;
+    color: rgb(204, 230, 48);
+    background-color: #EEE;
+    @media (min-width: 64em) {
+      background-color: #FFFFda;
+    }
+}
+
+.test2 {
+  width: 30px;
+  @media (min-width: 32em) {
+    width: 40px;
+  }
+  @media (min-width: 64em) {
+    width: 32px;
+  }
+}
+
+a {
+  text-decoration: underline;
+}
+
+b {
+  text-decoration : underline;
+}
+
+a {
+  text-transform :uppercase;
+}
+
+a {
+  text-decoration:underline;
+}
+
+.a { text-transform: uppercase;
+}
+
+.b
+{
+  text-transform: uppercase;
+}

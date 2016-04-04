@@ -1,0 +1,58 @@
+@media (min-width: 32em) {
+  html {
+    /*! media query order */
+  }
+}
+
+@media (min-width: 64em) {
+  html {
+    /*! media query order */
+  }
+}
+
+.test {
+  border: 0px;
+  font-size: 32px;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Verdana;
+  color: #cce630;
+  background-color: #EEE;
+}
+
+@media (min-width: 64em) {
+  .test {
+    background-color: #FFFFda;
+  }
+}
+
+.test2 {
+  width: 30px;
+}
+
+@media (min-width: 32em) {
+  .test2 {
+    width: 40px;
+  }
+}
+
+@media (min-width: 64em) {
+  .test2 {
+    width: 32px;
+  }
+}
+
+b {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a,.a,.b {
+  text-transform: uppercase;
+}
